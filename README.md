@@ -2,9 +2,10 @@
 
 Small public skills for making agent work easier to start, easier to verify, and harder to let drift.
 
-This repo begins with one skill:
+This repo begins with two skills:
 
 - [`agent-goal-contracts`](skills/agent-goal-contracts/README.md): turn a messy coding-agent request into a compact, verifiable `/goal` contract.
+- [`using-agent-skills`](skills/using-agent-skills/README.md): choose the right workflow skill before starting non-trivial agent work.
 
 ## Why This Exists
 
@@ -50,9 +51,15 @@ skills/
     SKILL.md
     README.md
     NOTICE.md
+    LICENSE
     references/
     scripts/
     tests/
+  using-agent-skills/
+    SKILL.md
+    README.md
+    NOTICE.md
+    LICENSE
 ```
 
 ## Validate
@@ -82,3 +89,5 @@ Each skill carries its own attribution boundary. Start with:
 
 - [`agent-goal-contracts/NOTICE.md`](skills/agent-goal-contracts/NOTICE.md)
 - [`agent-goal-contracts/README.md`](skills/agent-goal-contracts/README.md)
+- [`using-agent-skills/NOTICE.md`](skills/using-agent-skills/NOTICE.md)
+- [`using-agent-skills/README.md`](skills/using-agent-skills/README.md)
