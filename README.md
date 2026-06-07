@@ -2,10 +2,12 @@
 
 Small public skills for making agent work easier to start, easier to verify, and harder to let drift.
 
-This repo begins with two skills:
+This repo provides one skill:
 
 - [`agent-goal-contracts`](skills/agent-goal-contracts/README.md): turn a messy coding-agent request into a compact, verifiable `/goal` contract.
-- [`ai-writing-humanizer`](skills/ai-writing-humanizer/README.md): polish AI-shaped prose while preserving meaning and author voice.
+
+> The writing-assistant skill that used to live here now has its own repo:
+> [surahli123/ai-writing-suite](https://github.com/surahli123/ai-writing-suite).
 
 ## Why This Exists
 
@@ -55,11 +57,6 @@ skills/
     references/
     scripts/
     tests/
-  ai-writing-humanizer/
-    SKILL.md
-    README.md
-    NOTICE.md
-    LICENSE
 ```
 
 ## Validate
@@ -89,5 +86,3 @@ Each skill carries its own attribution boundary. Start with:
 
 - [`agent-goal-contracts/NOTICE.md`](skills/agent-goal-contracts/NOTICE.md)
 - [`agent-goal-contracts/README.md`](skills/agent-goal-contracts/README.md)
-- [`ai-writing-humanizer/NOTICE.md`](skills/ai-writing-humanizer/NOTICE.md)
-- [`ai-writing-humanizer/README.md`](skills/ai-writing-humanizer/README.md)
